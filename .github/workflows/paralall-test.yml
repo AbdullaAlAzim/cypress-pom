@@ -15,7 +15,7 @@ jobs:
       - name: Cypress Test Report            
         uses: actions/upload-artifact@v3
         with:
-          name: Mocha HTML Report register
+          name: Mocha HTML Report Add to Cart
           path: cypress/reports/html
 
   Register-test-run:
