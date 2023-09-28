@@ -7,7 +7,7 @@ describe(" test automation", () => {
     cy.login(testData.login.username, testData.login.password);
   });
 
-  it("Add To Cart flow", () => {
+  it("Add To Cart flow", () =>  {
     
     homePageObj.searchProduct(testData.product.productName);
     homePageObj.addToCart();
