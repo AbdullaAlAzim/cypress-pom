@@ -12,7 +12,7 @@ export class homePage {
     cy.get(this.weblocators.click_search).click();
   }
   addToCart() {
-    cy.contains(this.weblocators.addtocart).first().click();
+    cy.contains(this.weblocators.addtocart).first().click(); 
   }
 
   verifySucessMessage() {
